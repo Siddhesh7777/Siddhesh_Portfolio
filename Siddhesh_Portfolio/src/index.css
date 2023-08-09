@@ -1,0 +1,119 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+}
+
+body{
+  /* font-family: 'Nunito Sans', 'sans-serif'; */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-btn{
+  border-color: var(--clr-primary-3);
+  background-color: var(--clr-primary-3)
+}
+.sid{
+  border-color: var(--clr-primary-3);
+    background-color: var(--clr-primary-3)
+}
+.custom-btn:hover{
+  border-color: var(--clr-primary-3);
+  background-color: white;
+  color: var(--clr-primary-3);
+}
+.link{
+  color: var(--clr-primary-3);
+  /* color: #ec6e59; */
+  list-style: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover{
+  color: var(--clr-primary-3);
+  /* color: #f58f7d; */
+}
+.active{
+  border-bottom-color: var(--clr-primary-3);
+  /* border-bottom: 3px solid #ec6e59; */
+  border-bottom: 3px solid var(--clr-primary-3);
+}
+
+.bg-color{
+  background-color: #262a2e;
+}
+
+.custom-color-btn{
+  background-color: #ec6e59;
+  border: 1px solid #ec6e59;
+}
+
+.custom-color{
+  color: var(--clr-primary-1);
+  font-weight: 300;
+}
+
+.custom-font{
+  font-style: italic; 
+  font-weight: 600;
+  color: var(--clr-primary-3);
+
+}
+
+.custom-font{
+  max-width: 700px;
+  
+}
+
+.project-img{
+  max-width: 400px;
+  object-fit: cover;
+  max-height: 100%;        
+  transition: all 0.4s ease;
+  opacity: 0.9;
+}
+      
+ 
+.project-img:hover{
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+@media (min-width: 768px){
+  .form-class{
+    width: 500px;
+  }
+}
+
+ 
+ 
